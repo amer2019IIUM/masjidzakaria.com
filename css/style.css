@@ -1,0 +1,207 @@
+
+*     {
+  box-sizing: border-box;
+}
+html,
+body   {
+  margin: 0;
+  padding: 0;
+  line-height: 1.5;
+  font-size: 16px;
+}
+
+
+/**Here is the css part of the languages buttons AR MS EN*/
+.translate{
+  
+  
+  background-color: #f1f1f1;
+  color: black;
+  font-size: 16px;
+  padding: 2px 5px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+  font-family:  Arial, Helvetica, sans-serif;
+}
+
+button:hover {
+  background-color: #2d89ef;/*ocean blue*/
+  color: white;
+}
+/*End of this part*/
+
+
+
+/* styling our overall page */
+
+body     {
+  background: #FFF;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* styling our header */
+.header   {
+  background: #222;
+  color: #FFF;
+  padding: 20px 30px;
+    position: fixed;
+    width: 100%;
+    margin-bottom: 300px;
+    z-index: 5;
+     top: 0;
+  width: 100%;
+
+}
+
+/* logo */
+#logo         {
+ width: 150px;
+margin: 10px auto 25px auto;
+}
+#logo img    {
+  width: 70px;
+  border-radius: 3px;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+
+/* main navigation */
+nav     {
+  width: 50%;
+  display: inline-block;
+  text-align: right;
+  margin-left: 200px;
+}
+nav ul   {
+  width: 570px;
+				padding: 15px;
+				margin: 0px 0px 0px 30px;
+				border-top: 2px solid #fff;
+				border-bottom: 1px solid #fff;
+				text-align: center;
+}
+nav ul li {
+ display: inline;
+				margin: 0px 3px;
+}
+nav ul li a    {
+ color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  transition: background-color .5s;
+  transition-timing-function: cubic-bezier(.3, 0, 0, 1.0));
+}
+
+
+ nav ul li  a:hover {
+  background-color: #fff;
+  color: black;
+  border: 0px;
+  text-decoration: none;
+}
+
+
+ nav ul li a#active {
+  background-color: #2d89ef;/*Here we called the id of each page for example we are in home page so this color will  be in 'home' until we move to another page*/
+  color: white;
+}
+
+
+
+
+/*Here css of the text that showing on the images*/
+.marquee_p{
+  font-size: 60px;
+  position: absolute;
+
+  bottom: 200px;
+  color: #fff;
+  font-family:  'Allura', cursive;
+
+  
+
+}
+
+
+
+
+
+
+
+
+/*The css of about the masjid with images */
+
+
+.BoxT1{
+  font-size: 18px;
+  vertical-align: middle;
+  display: inline-block;
+  height: 50vh;
+  width: 30%;
+  border-radius: 3px;
+  
+  margin: 10px;
+  margin-top:-1px;
+  color: #000;
+  background-color: #000;
+   
+}
+
+ 
+#first_box
+{
+background-image:url('../img/My_personal_picture.jpg'); /*the picture for the div boxT1 that is in html file*/
+  width: 400px;
+  height: 400px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+    -webkit-clip-path: polygon(50% 0, 100% 25%, 100% 75%, 52% 100%, 0% 75%, 0% 25%);
+clip-path: polygon(50% 0, 100% 25%, 100% 75%, 52% 100%, 0% 75%, 0% 25%);
+    margin-right: 100px;
+}
+#second_box
+{
+  width: 400px;
+  height: 400px;
+background-image:url('../img/masjid5.jpg' );
+ 
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+    -webkit-clip-path: polygon(50% 0, 100% 25%, 100% 75%, 52% 100%, 0% 75%, 0% 25%);
+clip-path: polygon(50% 0, 100% 25%, 100% 75%, 52% 100%, 0% 75%, 0% 25%);
+     
+
+}
+#third_box
+{
+  width: 400px;
+  height: 400px;
+background-image:url('../img/masjid4.jpg');
+  
+  
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+    -webkit-clip-path: polygon(50% 0, 100% 25%, 100% 75%, 52% 100%, 0% 75%, 0% 25%);
+clip-path: polygon(50% 0, 100% 25%, 100% 75%, 52% 100%, 0% 75%, 0% 25%);
+    margin-left: 150px;
+}
+/*For the icons hover*/
+.icons a:hover{
+    background-color: pink;
+  
+
+
+}
+
+

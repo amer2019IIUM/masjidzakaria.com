@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css/style.css">
+    <!--CSS OF Contect-->
+    <link rel="stylesheet" href="css/contact.css">
+ <meta charset="utf-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+     <script type="text/javascript" src="translate/jquery-1.11.3.min.js"></script>
+
+    <!---This is the general javascript-->
+         <script src="js/JavaScript.js" type="text/javascript" ></script>
+          <script type="text/javascript" src="translate/jquery-1.11.3.min.js"></script>
+
+
+       <!--This is javascript for translate the page -->
+     <script type="text/javascript" src="translate/jquery-1.11.3.min.js"></script>
+        <script src="translate/translatepages.js"></script>
+
+
+    
+         <!-- ____________________________________for social media icons________________________________________ -->
+         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+          <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+     
+   <!--This is the Javascript of sending the alert message after you send the message-->
+<script>
+$(document).ready(function(){
+  $(".contact-form-btn").click(function(){
+    alert("Thanks a lot for your intersting ");
+  });
+  $("#btn2").click(function(){
+    alert("HTML: " + $("#test").html());
+  });
+});
+</script>
+
+
+
+	<meta charset="UTF-8">
+	<title>Contact</title>
+</head>
+
+<body>
+    <!-- the header -->
+    <header class="header">
+
+        <!-- our main logo -->
+        <a id="logo" href="index.html">
+            <img src="img/logo.png" alt="Logo">
+           
+        </a>
+
+        <!-- main navigation links -->
+        <span style="font-family:'Allura', cursive;"class ="lang" key ="translates">|Translate|</span>
+    <button class="translate" id="en" >EN</button>
+    <button class="translate" id="ar" >AR</button>
+    <button class="translate" id="ms" >MS</button>
+        <nav>
+             <ul>
+               <li ><a href="index.html" class ="lang" key ="home">HOME</a></li>
+                <li ><a href="announcement.html" class ="lang" key ="announcement">ANNOUNCEMENT</a></li>
+                <li ><a href="service.html" class ="lang" key ="service">SERVICES</a></li>
+                <li ><a href="contact.html" id="active" class ="lang" key ="contact">CONTACT</a></li>
+            </ul>
+        </nav>
+        </nav>
+
+    </header>
+
+    <!-- the content -->
+
+
+
+
+<!--Here the part of infor with images our team-->
+
+<div class="wrapper">
+  <h1 class ="lang" key ="ourteam">Our Team</h1>
+  <br>
+  <div class="team">
+    <div class="team_member">
+      <div class="team_img">
+        <img src="img/amer.jpg" alt="Team_image">
+      </div>
+      <h3 class ="lang" key ="name1">Amer Abdullah</h3>
+      <p class="role" class ="lang" key ="developer1">Web developer</p>
+      <p class ="lang" key ="desc1">My name is Amer Abdullah, a student at the Islamic University. I have membership number 1629925 I was born and raised in Yemen in a rural area, Insha Allah, I will provide all my posts for national service.</p>
+    </div>
+    <div class="team_member">
+      <div class="team_img">
+        <img src="img/azizan.jpg" alt="Team_image">
+      </div>
+      <h3 class ="lang" key ="name2">Ameer Azizan</h3>
+      <p class="role" class ="lang" key ="developer2" >Web developer</p>
+      <p class ="lang" key ="desc2">Assalamualaikum. My name is Ameer Azizan Bin Zulkarnain, 1729247. I was raised and born in Kuala Lumpur, Malaysia.  I join theatres and plays guitar in my freetime and as a "script kiddie", I like to mod my phone.  I want to become an Android developer in the future.</p></div>
+    <div class="team_member">
+      <div class="team_img">
+        <img src="img/abdullah.jpg" alt="Team_image" >
+      </div>
+      <h3 class ="lang" key ="name3">Abdullah Abulmajeed</h3>
+      <p class="role" class ="lang" key ="developer3">Games designer</p>
+      <p class ="lang" key ="desc3">'Name : Abdullah Abdulmajeed ,Metric : 1613003 ,Phone No : 01111212753  From : Afghanistan ,Future occupation : Game developer  Age : 25 years old'</p>
+    </div>
+
+    <div class="team_member">
+      <div class="team_img">
+        <img src="img/ikraam.jpeg.jpg" alt="Team_image" >
+      </div>
+      <h3 class ="lang" key ="name4">Ikraam</h3>
+      <p class="role" class ="lang" key ="developer4">Games Developer</p>
+      <p  class ="lang" key ="desc4">My name is Ikraam Zulfadzli Bin Abdullah,
+Matric No 1628097,
+i was born at gombak, kuala lumpur, Malaysia
+currently living at danau kota, setapak, kuala lumpur after moving out from gombak
+my hobbies is to play games
+I want to become either game developer or lecturer</p>
+    </div>
+  </div>
+</div>	
+
+ <!--End of this part-->
+
+
+
+<!--Contact us box --->
+<div class="contact-section">
+
+  <h1 class ="lang" key ="contactus">Contact Us</h1>
+  <div class="border"></div>
+  <form class="contact-form" action="index.html" method="post">
+    <input type="text" class="contact-form-text" placeholder="Your name">
+    <input type="email" class="contact-form-text" placeholder="Your email">
+    <input type="text" class="contact-form-text" placeholder="Your phone">
+    <textarea class="contact-form-text" placeholder="Your message"></textarea>
+    <input type="submit" class="contact-form-btn" value="Send">
+  </form>
+</div>
+<!--End of the part of contact us -->
+
+
+   <!--This is the part of the map-->
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3983.3950560482117!2d101.72063231472772!3d3.251600997632681!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31cc38bdc8ca0037%3A0x996b09950eb00063!2sMasjid+Zakaria+(Baru)!5e0!3m2!1sen!2smy!4v1556625962972!5m2!1sen!2smy" width="600" height="450" frameborder="0" class="map" style="border:3px solid black" allowfullscreenc></iframe>
+             <!--End of teh map part-->       
+    
+<h5 style="position: absolute;color: black;font-family: cursive;top:1000px;right: 700px;">MASJED ZAKARIA <br>Gombak for contact:01121288754<br>You can also find us on <br>Facebook and Instgram</h5>
+<!-- the footer -->
+    <footer style="background: #222;color: #777;padding: 5px;text-align: center;margin-top:100%;width: 100%;">
+        <img src="img/logo.png" alt="Footer Logo" style=" display: block;border-radius: 5px;width: 80px;margin: 0 auto 30px;">
+        <div>
+        <ul class="contact_logo" style="width: 570px;  padding: 15px;  margin: 0px auto 0px auto;  border-top: 2px solid #000;  border-bottom: 1px solid #000; text-align: center;  font-size:25px;">
+        <il style="display: inline; margin: 0px 3px;" class="icons">
+        <a href="https://www.facebook.com/people/Amer-Abdullah-Al-Jabre/100004005712990" target="_blank" style="color: white" ><i class="fab fa-facebook-square"></i></a>    
+            
+        <a href="https://wa.me/+601121288754" target="_blank" style="color: white"><i class="fab fa-whatsapp-square"></i></a>  
+            
+        <a href="https://twitter.com/muhadarat_ksa?lang=en" target="_blank" style="color: white"><i class="fab fa-twitter-square"></i></a>    
+        <a href="https://github.com/amer2019IIUM" target="_blank" style="color: white"><i class="fab fa-github"></i></a>    
+            
+            
+        </il>    
+        </ul>
+        </div>
+        <span class ="lang" key="footer">Developed by Codex<br>Copyright &copy; 2019-4-20 </span>
+    </footer>
+    <!--End of the footer-->
+    
+</body>
+</html>

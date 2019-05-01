@@ -1,0 +1,129 @@
+
+
+
+
+
+/*Here is the css of the part of times prayers*/
+table.salat_table {
+  border-spacing: 15px;
+  border-collapse: separate;
+}
+table.salat_table td {
+  background:#000;
+  
+  padding: 50px 0;
+  color: #fff;
+  text-align: center;
+  width: 16.66666%;
+}
+table.salat_table h2 {
+  color: #fff;
+  margin-bottom: 10px;
+}
+.salat_table strong {
+  color: #b89a68;
+  font-size: 16px;
+  font-weight: 700;
+}
+.salat_table span {
+  display: block;
+  font-size: 14px;
+  font-weight: 900;
+  margin-top: 10px;
+  color: #fff;
+}
+table.salat_table td:hover{
+    background-color: #2B65EC;/*ocean blue*/
+  color: white;
+  border: 2px solid black;
+}
+
+
+
+/*/////////////////////////////////
+///////////////////////////
+/*/
+
+/*Here is the css of the boxes of the annoumcement*/
+ .allboxes{
+
+  width:80%;
+  height:10%;
+
+    }
+  .allboxes h2{
+    font-family: 'Allura', cursive;
+  font-size: 52px;
+  text-align: center;
+  margin-right: 400px;
+  width:100%;
+  position: relative;
+  left: 120px;
+  
+  }  
+#more {display: none;}
+#more2 {display: none;}
+#more3 {display: none;}    
+#more4 {display: none;} 
+
+.box1{
+        width: 200px;
+        position: absolute;
+        right: 1150px;
+
+    }
+    .box1 p{
+      font-family: cursive;
+      margin-left: 30px;
+    }
+.box2{
+        width: 200px;
+        position: absolute;
+        right: 850px;
+    }
+     .box2 p{
+      font-family: cursive;
+      margin-left: 30px;
+    }
+.box3{
+        width: 200px;
+        position: absolute;
+        right: 550px;
+    }
+     .box3 p{
+      font-family: cursive;
+      margin-left: 30px;
+    }
+.box4{
+        width: 200px;
+        position: absolute;
+        right: 250px;
+    }  
+     .box4 p{
+      font-family: cursive;
+      margin-left: 30px;
+    }
+    /*css for the button of read more*/
+.buttonread{
+   background-color: #000; /* Green */
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  cursor: pointer;
+  font-family: cursive;
+  margin-left: 30px;
+
+}
+.buttonread:hover {
+  background-color: #2B65EC;
+  color: white;
+  border: 2px solid black;
+}
+/*End of this part*/

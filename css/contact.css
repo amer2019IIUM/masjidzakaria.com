@@ -1,0 +1,184 @@
+ @import url('https://fonts.googleapis.com/css?family=Allura|Josefin+Sans');
+
+  
+
+/*Here css of the info and images of our team*/
+
+.wrapper{
+  margin-top: 2%;
+  position: absolute;
+  top: 50px;
+  left: 300px;
+  height: 300px;
+  width: 80%;
+z-index: -1;
+}
+
+.wrapper h1{
+  font-family: 'Allura', cursive;
+  font-size: 52px;
+  margin-bottom: 200px;
+  text-align: center;
+  margin-right: 170px;
+  
+}
+
+.team{
+  display: flex;
+  justify-content: center;
+  width: auto;
+  text-align: center;
+  flex-wrap: wrap;
+  margin-right: 170px;
+}
+
+.team .team_member{
+  background: #fff;
+  margin: 5px;
+  margin-bottom: 50px;
+  right: 75px;
+  width: 250px;
+  padding: 20px;
+  line-height: 20px;
+  color: #8e8b8b;  
+  position: relative;
+
+}
+
+.team .team_member h3{
+  color: #000;
+  font-size: 20px;
+  margin-top: 50px;
+}
+
+.team .team_member p.role{
+  color: #ccc;
+  margin: 12px 0;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+.team .team_member .team_img{
+  position: absolute;
+  top: -50px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: #fff;
+
+}
+
+.team .team_member .team_img img{
+  width: 200px;
+  height: 200px;
+  padding: 5px;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 10px;
+  right: -50px;
+}
+ 
+ /*End of this part*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ /*This is the css of contact us */
+.contact-section{
+  
+  background-size: cover;
+  padding: 40px 0;
+ 
+  z-index: -1;
+  position: absolute;
+  top: 200px;
+  margin-left:60%;
+  margin-top: 40%;
+  margin-bottom: 50px;
+  width: 500px;
+  border: 2px solid black;
+}
+.contact-section h1{
+  text-align: center;
+  color: #000;
+
+
+}
+.border{
+  width: 100px;
+  height: 10px;
+  background: #34495e;
+  margin: 40px auto;
+}
+
+.contact-form{
+  max-width: 600px;
+  margin: auto;
+  padding: 0 10px;
+  overflow: hidden;
+}
+
+.contact-form-text{
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  margin: 16px 0;
+  border: 0;
+  background: #111;
+  padding: 20px 40px;
+  outline: none;
+  color: #ddd;
+  transition: 0.5s;
+}
+.contact-form-text:focus{
+  box-shadow: 0 0 10px 4px #34495e;
+}
+textarea.contact-form-text{
+  
+  height: 120px;
+}
+.contact-form-btn{
+  float: right;
+  border: 0;
+  background: #34495e;
+  color: #fff;
+  padding: 12px 50px;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.contact-form-btn:hover{
+  background: #2980b9;
+}
+ /*End styling of contact us */
+
+
+
+
+/* The map details of the Masjid  */
+
+.map{
+ z-index: -1;
+
+  position: absolute;
+  top: 900px;
+  left: 40px;
+  
+  height: 500px;
+  width: 500px;
+  -webkit-clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+}
